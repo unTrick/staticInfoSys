@@ -1,0 +1,31 @@
+.navbar {
+    background-color: aliceblue !important;
+}
+
+.navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+
+.navbar-nav .nav-item.active {
+    background-color: #007bff;
+    border-radius: 0.25rem;
+}
+
+.navbar-nav .nav-item.active .nav-link {
+    color: #fff;
+}
+
+.img-card {
+    width: 500px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.page-title {
+    font-size: 50px; 
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
