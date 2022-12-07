@@ -21,11 +21,11 @@
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .page-title {
     font-size: 50px; 
     font-weight: 600;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }

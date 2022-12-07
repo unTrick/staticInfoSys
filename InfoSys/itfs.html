@@ -3,103 +3,51 @@
 	<head> 
 		<title>InfoSys</title>
 		<link rel="icon" href="img/utypaslbyxwfuwhfdzxd.png">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/lightbox.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/jquery-3.6.1.js"></script>
 	</head>
-    <body>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="collapse navbar-collapse justify-content-center">
-            <ul class="navbar-nav">
+  <body>
+      <!-- Navigation-->
+      <div id="navigation-bar"></div>
 
-              <li class="nav-item">
-                <a class="navbar-brand" href="index.html">
-                  <img src="img/Infosys_logo.svg.png" class="d-inline-block" style="width: 50px;">
-                </a>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link  dropdown-toggle" href="accountunlock.html" data-bs-toggle="dropdown"> Account Issues </a>
-                <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="accountunlock.html"> Account Unlock </a></li>
-                    <li><a class="dropdown-item" href="passwordreset.html"> Password Reset </a></li>
-                    <li><a class="dropdown-item" href="expiredaccount.html"> Expired Account </a></li>
-                    <li><a class="dropdown-item" href="disabledaccount.html"> Disabled Account </a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="rccloginissues.html" data-bs-toggle="dropdown"> Application Issues </a>
-                <ul class="dropdown-menu dropdown-menu-end">
-                  <li><a class="dropdown-item" href="rccloginissues.html"> RCC 1st and 2nd Login Issues </a></li>
-                  <li><a class="dropdown-item" href="dgsunerror47.html"> DG Sun Error 47 </a></li>
-                  <li><a class="dropdown-item" href="otmportlock.html"> OTM Port Lock </a></li>
-                  <li><a class="dropdown-item" href="loanserv.html"> Loanserv/Fiserve/Sageant </a></li>
-                  <li><a class="dropdown-item" href="iservicesissues.html"> iServices Issues </a></li>
-                  <li><a class="dropdown-item" href="universedocument.html"> Universe/Documentum </a></li>
-                  <li><a class="dropdown-item" href="shareddriveissues.html"> Shared Drive Issues </a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link  dropdown-toggle" href="vpnissue.html" data-bs-toggle="dropdown"> VPN Issues </a>
-                <ul class="dropdown-menu dropdown-menu-end">
-                  <li><a class="dropdown-item" href="vpnissue.html"> VPN Issue </a></li>
-                  <li><a class="dropdown-item" href="pulsesecurevpn.html"> Pulse Secure VPN Login Error </a></li>
-                  <li><a class="dropdown-item" href="settinguppulsesecure.html"> Setting up Pulse Secure </a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown">
-                <a class="nav-link  dropdown-toggle" href="squirrelexplorer.html" data-bs-toggle="dropdown"> Squirrel Issues </a>
-                <ul class="dropdown-menu dropdown-menu-end">
-                  <li><a class="dropdown-item" href="squirrelexplorer.html"> Squirrel Explorer/Back Office Password Reset/Unlock </a></li>
-                  <li><a class="dropdown-item" href="squirrelerror.html"> Squirrel Error SAM Initializing </a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item dropdown active">
-                <a class="nav-link  dropdown-toggle" href="itfs.html" data-bs-toggle="dropdown"> Templates </a>
-                <ul class="dropdown-menu dropdown-menu-end">
-                  <li><a class="dropdown-item" href="itfs.html"> ITFS Template </a></li>
-                  <li><a class="dropdown-item" href="swatcall.html"> Swat Call Template </a></li>
-                  <li><a class="dropdown-item" href="squirrelescalation.html"> Squirrel Escalation Template </a></li>
-                  <li><a class="dropdown-item" href="ticketdocumentation.html"> Ticket Documentation Template </a></li>
-                  <li><a class="dropdown-item" href="threestrikerule.html"> Three Strike Rule Template </a></li>
-                </ul>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="helpfulkbarticles.html"> Helpful KB Articles </a>
-              </li>
-              
-            </ul>
-          </div>
-        </nav>
-
-        <!-- Content-->
-        <div class="container">
-          <div  class="row">
-            <div class="col-md-12" style="text-align: center;">
-              <span class="page-title">ITFS Template (Escalation to ITFS)</span>
-            </div>
-          </div>
-          <div class="row">
-            <p>Name: <br>
-              Username: <br>
-              Phone: <br>
-              Location (Seat #, Site name, Bldg name and Floor): <br>
-              Computer Name: <br>
-              Issue/Concern: <br>
-              # of users affected: <br>
-              Action/Steps Taken: please include the following: <br>
-              • Tools utilized <br>
-              • Steps taken (troubleshooting, callback made, email sent etc.)</p>
+      <!-- Content-->
+      <div class="container">
+        <div  class="row" style="margin-bottom: 50px;">
+          <div class="col-md-12" style="text-align: center;">
+            <span class="page-title">ITFS Template (Escalation to ITFS)</span>
           </div>
         </div>
-    </body>
+        <div class="row">
+          <p>
+            Name: <br>
+            Username: <br>
+            Phone: 4 <br>
+            Location (Seat #, Site name, Bldg name and Floor): <br>
+            Computer Name: <br>
+            Issue/Concern: <br>
+            # of users affected: <br>
+            Action/Steps Taken: please include the following: <br>
+            &#x2022; Tools utilized <br>
+            &#x2022; Steps taken (troubleshooting, callback made, email sent etc.)
+          </p>
+        </div>
+      </div>
+
+      <script type="text/javascript" src="js/lightbox.js"></script>
+  </body>
 </html>
+
+<script>
+  $("#navigation-bar").load("navigationbar.html", function(){
+    $("#templates").addClass("active");
+  });
+
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
+  });
+</script>
