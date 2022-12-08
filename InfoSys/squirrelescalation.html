@@ -11,31 +11,41 @@
     <script type="text/javascript" src="js/jquery-3.6.1.js"></script>
 	</head>
   <body>
-      <!-- Navigation-->
-      <div id="navigation-bar"></div>
+    <!-- Navigation-->
+    <div id="navigation-bar"></div>
 
-      <!-- Content-->
-      <div class="container">
-        <div  class="row" style="margin-bottom: 50px;">
-          <div class="col-md-12" style="text-align: center;">
-            <span class="page-title">Squirrel Escalation Template</span>
+    <!-- Site Data-->
+    <div class="page-header page-header-light shadow">
+      <div class="page-header-content container d-lg-flex" style="margin-left: 25px;">
+        <div class="d-flex">
+          <div class="breadcrumb py-2">
+            <span class="breadcrumb-item">Templates</span>
+            <span class="breadcrumb-item active">Squirrel Escalation Template</span>
           </div>
         </div>
-        <div class="row">
-          <p>
-            Name: <br>
-            Site / Location: <br>
-            Property/Restaurant Name <br>
-            Contact Details: via Phone# or Teams: <br>
-            Actual Issue: <br>
-            Affected Terminal Name (If applicable): <br>
-            Impact: <br>
-            Cherwell Ticket#:
-          </p>
+      </div>
+    </div>
+
+    <!-- Content-->
+    <div class="container" style="margin-top: 20px;">
+      <div class="content container pt-0" style="margin-bottom: 50px;">
+        <div class="card" style="margin-bottom: 20px;">
+          <div class="card-body">
+            <p class="card-text">
+              Name: <br>
+              Site / Location: <br>
+              Property/Restaurant Name <br>
+              Contact Details: via Phone# or Teams: <br>
+              Actual Issue: <br>
+              Affected Terminal Name (If applicable): <br>
+              Impact: <br>
+              Cherwell Ticket#:
+            </p>
+          </div>
         </div>
       </div>
+    </div>
 
-      <script type="text/javascript" src="js/lightbox.js"></script>
   </body>
 </html>
 
@@ -44,8 +54,4 @@
     $("#templates").addClass("active");
   });
 
-  lightbox.option({
-    'resizeDuration': 200,
-    'wrapAround': true
-  });
 </script>

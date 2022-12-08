@@ -14,47 +14,68 @@
       <!-- Navigation-->
       <div id="navigation-bar"></div>
 
-      <!-- Content-->
-      <div class="container">
-        <div  class="row" style="margin-bottom: 50px;">
-          <div class="col-md-12" style="text-align: center;">
-            <span class="page-title" style="color: red;">Universe or Documentum Not Connecting</span>
+      <!-- Site Data-->
+      <div class="page-header page-header-light shadow">
+        <div class="page-header-content container d-lg-flex" style="margin-left: 25px;">
+          <div class="d-flex">
+            <div class="breadcrumb py-2">
+              <span class="breadcrumb-item">Application Issues</span>
+              <span class="breadcrumb-item active">Universe or Documentum Not Connecting</span>
+            </div>
           </div>
         </div>
-        <div class="row" style="margin-bottom: 50px;">
-          <p>
-            Universe Session Not Connecting – “Attempting to Connect to Host” at the bottom OR Documentum <br>
-            RDP Sessions fail. <br> <br>
-            This error is caused by the PC not be allowed through the Firewall. Below are the items needed to get <br>
-            through the firewall: <br> <br>
-            &emsp;&#x2022;&emsp;PC has up to date Group Policy <br>
-            &emsp;&#x2022;&emsp;User has AD Group <br>
-            &emsp;&#x2022;&emsp;PC has AD Group <br>
-            &emsp;&#x2022;&emsp;User is on VPN or Ethernet corporate network connection <br>
-            &emsp;&#x2022;&emsp;Host Access is properly configured (Universe Only) <br><br>
-            &emsp;<b>Troubleshooting Steps:</b> <br> <br>
-            &emsp;1. To update the Group Policy... If the user is on MVW Network open Command Prompt and type: <br>
-            &emsp;&emsp;&emsp;gpupdate /force <br><br>
-            &emsp;2. Make sure they are not trying to access Universe and/or Documentum via MVW Global Wireless <br>
-            &emsp;&emsp;&emsp;or Public Wifi without VPN Connection <br><br>
-            &emsp;3. Make Sure they are logging in with their own EID (not IMG or generic account) IMG accounts do <br>
-            &emsp;&emsp;&emsp;not have access to Universe. <br><br>
-            &emsp;4. EID has GRP-Universe-Users group for Universe, or GRP-Documentum-Users for Documentum in <br>
-            &emsp;&emsp;&emsp;Active Directory – Refer to Cherwell Service Catalog for Universe Access or Documentum Access - <br>
-            &emsp;&emsp;&emsp;DO NOT ADD AD GROUPS TO EID - refer to Cherwell pIT Stop <br><br>
-            &emsp;5. User is entering EID all in lower case <br><br>
-            &emsp;6. User EID is not locked out. <br><br>
-            &emsp;7. Make sure the PC is in the GRP-CDE-Computers AD group for Universe or GRP-Documentum- <br>
-            &emsp;&emsp;&emsp;Computers for Documentum - Contact MOD to add the AD group(s) to the PC <br><br>
-            &emsp;8. Make sure the PC is in the correct PCI OU – Forward ticket to Central Ops to move PC to PCI OU <br>
-            &emsp;&emsp;&emsp;PC must have the correct AD group and BE in the PCI OU to be able to connect. <br><br>
-            <br>
-            &emsp;For the below, if you have made changes ONLY. <br><br>
-            &emsp;Wait 15 – 30 minutes for the updated permissions to be loaded for the PC, it can take 15 minutes. <br>
-            &emsp;Additionally, for the PC, the update
-          </p>
+      </div>
+
+      <!-- Content-->
+      <div class="container" style="margin-top: 20px;">
+        <div class="content container pt-0" style="margin-bottom: 50px;">
+
+          <div class="card">
+            <div class="card-header">
+              <h5 lass="mb-0">Universe Session Not Connecting – “Attempting to Connect to Host” at the bottom OR Documentum RDP Sessions fail.</h5>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">This error is caused by the PC not be allowed through the Firewall. Below are the items needed to get through the firewall</h5>
+              <p class="card-text">
+                &emsp;&#x2022;&emsp;PC has up to date Group Policy <br>
+                &emsp;&#x2022;&emsp;User has AD Group <br>
+                &emsp;&#x2022;&emsp;PC has AD Group <br>
+                &emsp;&#x2022;&emsp;User is on VPN or Ethernet corporate network connection <br>
+                &emsp;&#x2022;&emsp;Host Access is properly configured (Universe Only) <br><br>
+
+                &emsp;<b>Troubleshooting Steps:</b> <br> <br>
+
+                &emsp;1. To update the Group Policy... If the user is on MVW Network open Command Prompt and type: gpupdate /force <br><br>
+
+                &emsp;2. Make sure they are not trying to access Universe and/or Documentum via MVW Global Wireless or Public Wifi without VPN Connection <br><br>
+
+                &emsp;3. Make Sure they are logging in with their own EID (not IMG or generic account) IMG accounts do not have access to Universe. <br><br>
+
+                &emsp;4. EID has GRP-Universe-Users group for Universe, or GRP-Documentum-Users for Documentum in <br>
+                &emsp;&emsp;Active Directory – Refer to Cherwell Service Catalog for Universe Access or Documentum Access - <br>
+                &emsp;&emsp;DO NOT ADD AD GROUPS TO EID - refer to Cherwell pIT Stop <br><br>
+
+                &emsp;5. User is entering EID all in lower case <br><br>
+
+                &emsp;6. User EID is not locked out. <br><br>
+                
+                &emsp;7. Make sure the PC is in the GRP-CDE-Computers AD group for Universe or GRP-Documentum- <br>
+                &emsp;&emsp;Computers for Documentum - Contact MOD to add the AD group(s) to the PC <br><br>
+                
+                &emsp;8. Make sure the PC is in the correct PCI OU – Forward ticket to Central Ops to move PC to PCI OU PC <br>
+                &emsp;&emsp;must have the correct AD group and BE in the PCI OU to be able to connect. <br><br>
+                <br>
+
+                &emsp;For the below, if you have made changes ONLY. <br><br>
+                &emsp;Wait 15 – 30 minutes for the updated permissions to be loaded for the PC, it can take 15 minutes. <br>
+                &emsp;Additionally, for the PC, the update
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
+
   </body>
 </html>
 

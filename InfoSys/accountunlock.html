@@ -15,24 +15,70 @@
       <!-- Navigation-->
       <div id="navigation-bar"></div>
       
-      <!-- Content-->
-      <div class="container">
-        <div  class="row" style="margin-bottom: 50px;">
-          <div class="col-md-12" style="text-align: center;">
-            <span class="page-title">UNLOCK ACCOUNT</span>
+      <!-- Site Data-->
+      <div class="page-header page-header-light shadow">
+        <div class="page-header-content container d-lg-flex" style="margin-left: 25px;">
+          <div class="d-flex">
+            <div class="breadcrumb py-2">
+              <span class="breadcrumb-item">Account Issues</span>
+              <span class="breadcrumb-item active">Unlock Account</span>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6">
-            <a href="img/accountunlock001.jpg" data-lightbox="roadtrip">
-              <img src="img/accountunlock001.jpg" class="img-thumbnail img-card">
-            </a>
+      </div>
+
+      <!-- Content-->
+      <div class="container" style="margin-top: 20px;">
+        <div class="content container pt-0" style="margin-bottom: 50px;">
+
+          <div class="card" style="margin-bottom: 20px;">
+            <div class="card-body">
+              <h5 class="card-title">1. Look up the user’s EID on Active Directory</h5>
+            </div>
           </div>
-          <div class="col-md-6">
-            <a href="img/accountunlock002.jpg" data-lightbox="roadtrip">
-              <img src="img/accountunlock002.jpg" class="img-thumbnail img-card">
-            </a>
+
+          <div class="card" style="margin-bottom: 20px;">
+            <div class="card-header">
+              <h5 class="mb-0">2. Open user’s Properties and go to ‘Account Tab’</h5>
+            </div>
+            <div class="card-body">
+              <a href="img/accountlock01.png" data-lightbox="roadtrip">
+                <img src="img/accountlock01.png" class="img-thumbnail img-card">
+              </a>
+            </div>
+            <div class="card-footer">
+              <div class="card-text">As you can see, user is locked out</div>
+            </div>
           </div>
+
+          <div class="card" style="margin-bottom: 20px;">
+            <div class="card-header">
+              <h5 class="mb-0">3. Check the Check box to unlock the account and then hit Apply and Ok as shown in the images below</h5>
+            </div>
+            <div class="card-body">
+              <a href="img/accountlock02.png" data-lightbox="roadtrip">
+                <img src="img/accountlock02.png" class="img-thumbnail img-card">
+              </a>
+            </div>
+          </div>
+
+          <div class="card" style="margin-bottom: 20px;">
+            <div class="card-body">
+              <h5 class="card-title">4. Have the user wait for at least 5 seconds for the changes to take in effect</h5>
+            </div>
+          </div>
+
+          <div class="card border border-danger shadow-sm" style="margin-bottom: 20px;">
+            <div class="card-header bg-danger text-white border-bottom-0">
+              <h5 class="mb-0">Note</h5>
+            </div>
+            <div class="card-body">
+              <p class="card-text">
+                This will only work if the application user’s trying to access requires a SSO login.
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
 
