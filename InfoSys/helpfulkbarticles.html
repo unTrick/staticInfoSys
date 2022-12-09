@@ -12,7 +12,81 @@
 	</head>
   <body>
     <!-- Navigation-->
-    <div id="navigation-bar"></div>
+    <!-- <div id="navigation-bar"></div> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="navbar-brand" style="position: absolute;">
+          <a href="index.html" class="d-inline-flex align-items-center">
+              <img src="img/Infosys-Consulting-logo-01.png" style="width: 200px;" class="d-none d-sm-inline-block h-16px ms-3" alt="">
+          </a>
+      </div>
+      <div class="collapse navbar-collapse justify-content-center">
+          <ul class="navbar-nav">
+
+              <!-- <li class="nav-item">
+              <a class="navbar-brand" href="index.html">
+                  <img src="img/Infosys_logo.svg.png" class="d-inline-block" style="width: 50px;">
+              </a>
+              </li> -->
+
+              <li class="nav-item dropdown" id="account-issues">
+              <a class="nav-link  dropdown-toggle" href="accountunlock.html" data-bs-toggle="dropdown"> Account Issues </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="accountunlock.html"> Account Unlock </a></li>
+                  <li><a class="dropdown-item" href="passwordreset.html"> Password Reset </a></li>
+                  <li><a class="dropdown-item" href="expiredaccount.html"> Expired Account </a></li>
+                  <li><a class="dropdown-item" href="disabledaccount.html"> Disabled Account </a></li>
+              </ul>
+              </li>
+
+              <li class="nav-item dropdown" id="application-issues">
+              <a class="nav-link dropdown-toggle" href="rccloginissues.html" data-bs-toggle="dropdown"> Application Issues </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="rccloginissues.html"> RCC 1st and 2nd Login Issues </a></li>
+                  <li><a class="dropdown-item" href="dgsunerror47.html"> DG Sun Error 47 </a></li>
+                  <li><a class="dropdown-item" href="otmportlock.html"> OTM Port Lock </a></li>
+                  <li><a class="dropdown-item" href="loanserv.html"> Loanserv/Fiserve/Sageant </a></li>
+                  <li><a class="dropdown-item" href="iservicesissues.html"> iServices Issues </a></li>
+                  <li><a class="dropdown-item" href="universedocument.html"> Universe/Documentum </a></li>
+                  <li><a class="dropdown-item" href="shareddriveissues.html"> Shared Drive Issues </a></li>
+              </ul>
+              </li>
+
+              <li class="nav-item dropdown" id="vpn-issues">
+              <a class="nav-link  dropdown-toggle" href="vpnissue.html" data-bs-toggle="dropdown"> VPN Issues </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="vpnissue.html"> VPN Issue </a></li>
+                  <li><a class="dropdown-item" href="pulsesecurevpn.html"> Pulse Secure VPN Login Error </a></li>
+                  <li><a class="dropdown-item" href="settinguppulsesecure.html"> Setting up Pulse Secure </a></li>
+              </ul>
+              </li>
+
+              <li class="nav-item dropdown" id="squirrel-issues">
+              <a class="nav-link  dropdown-toggle" href="squirrelexplorer.html" data-bs-toggle="dropdown"> Squirrel Issues </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="squirrelexplorer.html"> Squirrel Explorer/Back Office Password Reset/Unlock </a></li>
+                  <li><a class="dropdown-item" href="squirrelerror.html"> Squirrel Error SAM Initializing </a></li>
+                  <li><a class="dropdown-item" href="squirrelcallandscalation.html"> Squirrel Call and Escalation Process </a></li>
+              </ul>
+              </li>
+
+              <li class="nav-item dropdown" id="templates">
+              <a class="nav-link  dropdown-toggle" href="itfs.html" data-bs-toggle="dropdown"> Templates </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="itfs.html"> ITFS Template </a></li>
+                  <li><a class="dropdown-item" href="swatcall.html"> Swat Call Template </a></li>
+                  <li><a class="dropdown-item" href="squirrelescalation.html"> Squirrel Escalation Template </a></li>
+                  <li><a class="dropdown-item" href="ticketdocumentation.html"> Ticket Documentation Template </a></li>
+                  <li><a class="dropdown-item" href="threestrikerule.html"> Three Strike Rule Template </a></li>
+              </ul>
+              </li>
+
+              <li class="nav-item active" id="kbarticles">
+              <a class="nav-link" href="helpfulkbarticles.html"> Helpful KB Articles </a>
+              </li>
+              
+          </ul>
+      </div>
+    </nav>
 
     <!-- Site Data-->
     <div class="page-header page-header-light shadow">
@@ -69,7 +143,7 @@
 
 <script>
 
-  $("#navigation-bar").load("navigationbar.html", function(){
-    $("#kbarticles").addClass("active");
-  });
+  // $("#navigation-bar").load("navigationbar.html", function(){
+  //   $("#kbarticles").addClass("active");
+  // });
 </script>
